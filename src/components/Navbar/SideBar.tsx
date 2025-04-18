@@ -9,7 +9,7 @@ export const menu = [
   {title:'about',url:'/about'},
 ]
 
-export const SideBar = ({setShowMenu,showMenu}:{setShowMenu:(state:boolean)=>void,showMenu:boolean}) => {
+export const SideBar = ({setShowMenu}:{setShowMenu:(state:boolean)=>void,showMenu:boolean}) => {
   return (
     <motion.div
         className='h-[100vh] fixed top-0 right-0 w-full bg-blue-200 z-40 px-4'>

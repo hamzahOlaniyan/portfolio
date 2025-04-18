@@ -9,11 +9,6 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "Creative and user-focused UX/UI Designer crafting intuitive digital experiences. Explore my portfolio of design projects, case studies, and prototypes. Let's build seamless, beautiful interfaces together",

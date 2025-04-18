@@ -3,10 +3,10 @@ import Work from "../components/Work/Work";
 import * as motion from "motion/react-client"
 
 const data = [
-    {title:'Strategic Design Expertise',content:'Conducting product discovery, to help define and execute a design strategy that supports your business goals. Tackling complex challenges, and delivering seamless user experiences.'},
-    {title:'Product Validation ',content:'Validating design ideas to ensure they resonates with your target audience. Using data driven rapid prototyping to  reduce the risk in launching ideas.'},
-    {title:'AI, Growth and Data Design ',content:'Whether you want to uncover how AI can add value to your product, or grow your customer base, it all starts with data. Leverage your data to supercharge your goals'},
-    {title:'End To End Design',content:'For 0-1 Products and growing teams. From research and ideation to execution and iteration, building scalable design systems for faster and more effectively  delivery.'}]
+    {title:"Strategic Design Expertise",content:"Conducting product discovery, to help define and execute a design strategy that supports your business goals. Tackling complex challenges, and delivering seamless user experiences."},
+    {title:"Product Validation ",content:"Validating design ideas to ensure they resonates with your target audience. Using data driven rapid prototyping to  reduce the risk in launching ideas."},
+    {title:"AI, Growth and Data Design",content:"Whether you want to uncover how AI can add value to your product, or grow your customer base, it all starts with data. Leverage your data to supercharge your goals"},
+    {title:"End To End Design",content:"For 0-1 Products and growing teams. From research and ideation to execution and iteration, building scalable design systems for faster and more effectively  delivery."}]
 
 export default function Home() {
   return (
@@ -19,10 +19,10 @@ export default function Home() {
                      animate={{ opacity: 1, scale: 1 }}
                      transition={{
                          duration: .8,
-                         ease:'easeIn',
-                         type:{type:'inertia'}
+                         ease:"easeIn",
+                         type:{type:"inertia"}
                      }}
-                className="text-3xl sm:text-[44px] font-medium">Hi! I'm ?????????, pronounced chilli 🌶 Your strategic design and growth partner.</motion.h2>
+                className="text-3xl sm:text-[44px] font-medium">Hi! I"m ?????????, pronounced chilli 🌶 Your strategic design and growth partner.</motion.h2>
               </div>
               <div className="space-y-3">
                 <p>I use design strategies to solve complex challenges, and drive business growth.  With over 9 years of creating digital solutions, I can help you create an exceptional experience for your users that increase revenue and reduce operational costs. </p>

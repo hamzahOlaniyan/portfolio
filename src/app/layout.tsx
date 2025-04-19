@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html>
       <body
-        className={`${geistSans.className}  antialiased`}
+        className={`${geistSans.className}  antialiased  bg-[#fffff]`}
       >
         <NavBar/>
         {children}
@@ -31,3 +31,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+// bg-[#f8f8f8]

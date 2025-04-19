@@ -22,8 +22,8 @@ export const NavBar = () => {
                      ease:'easeIn',
                      type:{type:'inertia'}
                  }}
-               className="h1 text-lg sm:text-3xl font-semibold capitalize z-50">?????????</motion.div>
-            <div className="hidden sm:flex items-center">
+               className="h1 text-lg sm:text-2xl font-semibold capitalize z-50">Simon yoseph</motion.div>
+            <div className="hidden sm:flex gap-2 items-center">
               {menu.map((item,idx)=>(
                 <Link key={idx} href={item.url} className={`${path === item.url ? 'underline':''} block text-center text-lg p-1 capitalize`}>{item.title}</Link>
               ))}

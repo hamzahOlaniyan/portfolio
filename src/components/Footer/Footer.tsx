@@ -7,9 +7,6 @@ export const Footer = () => {
             <h1 className='text-lg font-semibold'>Let me help your business thrive</h1>
             <h1>Email: ????????????</h1>
         </div>
-        <div className="">
-          socials: ??????????
-        </div>
     </footer>
   )
 }

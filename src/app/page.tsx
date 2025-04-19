@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Work from "../components/Work/Work";
 import * as motion from "motion/react-client"
+import Image from "next/image";
 
 const data = [
     {title:"Strategic Design Expertise",content:"Conducting product discovery, to help define and execute a design strategy that supports your business goals. Tackling complex challenges, and delivering seamless user experiences."},
@@ -22,7 +23,7 @@ export default function Home() {
                          ease:"easeIn",
                          type:{type:"inertia"}
                      }}
-                className="text-3xl sm:text-[44px] font-medium">Hi! I"m ?????????, pronounced chilli 🌶 Your strategic design and growth partner.</motion.h2>
+                className="text-3xl sm:text-[44px] font-medium">Hi! I"m Simon, Your strategic design and growth partner.</motion.h2>
               </div>
               <div className="space-y-3">
                 <p>I use design strategies to solve complex challenges, and drive business growth.  With over 9 years of creating digital solutions, I can help you create an exceptional experience for your users that increase revenue and reduce operational costs. </p>
@@ -39,8 +40,9 @@ export default function Home() {
                      duration: .8,
                      ease:'easeIn',
                      type:{type:'inertia'}
-                 }}
-                className="w-full h-48 sm:h-full bg-sky-500 rounded-xl"></motion.div>
+                 }}>
+                  <Image src={'/profile_pic.jpeg'} alt="profile" width={1000} height={1000} className="w-full h-full sm:h-ful rounded-xl"/>
+                </motion.div>
             </div>
           </div>
 
@@ -62,7 +64,7 @@ export default function Home() {
           </div>
           <div className="my-20 flex flex-col">
             <Work perView={2}/>
-            <Link href={'/work'} className=" block capitalize text-xl font-medium text-blue-200 hover:bg-neutral-700 bg-neutral-800 p-3 rounded-md self-center">view more work</Link>
+            <Link href={'/work'} className=" block capitalize text-xl font-medium text-blue-200 hover:bg-neutral-700 bg-neutral-800 p-3 rounded-md self-center my-12">view more work</Link>
           </div>
       </div>
   );

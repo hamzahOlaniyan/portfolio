@@ -13,8 +13,6 @@ export interface Props{
   url:string
 }
 
-
-
 const Work = ({perView=porfolio.length}:{perView?:number}) => {
   return (
     <div>

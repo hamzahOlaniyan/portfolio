@@ -5,6 +5,17 @@ import { Meta } from '@/components/pages/Meta'
 import { Deliveroo } from '@/components/pages/Deliveroo'
 import { Soldo } from '@/components/pages/Soldo'
 
+export function generateStaticParams() {
+    return [
+      { name: 'elekt-app' },
+      { name: 'accuport' },
+      { name: 'meta' },
+      { name: 'shell-energy-assistant' },
+      { name: 'soldo' },
+      { name: 'deliveroo' },
+    ]
+  }
+
 export default async function Page({params,}: {params: Promise<{ name: string }>}) {
     const { name } = await params
 
